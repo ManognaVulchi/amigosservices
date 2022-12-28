@@ -16,7 +16,7 @@
       <module>notification</module>
     <module>apigw</module>
       <module>amqp</module>
-      <module>k8s</module>
+     <!-- <module>k8s</module>-->
   </modules>
 
   <name>amigosservices</name>
