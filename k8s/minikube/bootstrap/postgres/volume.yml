@@ -12,8 +12,8 @@ spec:
   accessModes:
     - ReadWriteMany
   hostPath:
-    path: /mnt/data   # this is the mount path within minkube , this is the host
----  # this denotes new resource  here we define how much volume we want to claim from the persistant volume
+    path: /mnt/data
+---
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
